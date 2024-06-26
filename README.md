@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌲 Minimal landing page React, Vite, HMR, ESLint template. (v0.2)
 
 ```bash
 npm install
