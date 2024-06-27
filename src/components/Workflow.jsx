@@ -1,6 +1,4 @@
-import { CheckCircle2 } from 'lucide-react';
 import codeImg from '../assets/code.jpg';
-import { checklistItems } from '../constants';
 
 const Workflow = () => {
   return (
@@ -12,22 +10,42 @@ const Workflow = () => {
         </span>
         <br></br> <br></br>
       </h2>
-      <div className="flex flex-wrap justify-center">
-        <div className="w-full p-2 lg:w-1/2">
-          <img src={codeImg} alt="Coding" />
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 1" className="border border-blue-600 rounded-md" />
         </div>
-        <div className="w-full pt-12 lg:w-1/2">
-          {checklistItems.map((item, index) => (
-            <div key={index} className="flex mb-12">
-              <div className="items-center justify-center w-10 h-10 p-2 mx-6 text-blue-400 rounded-full bg-neutral-900">
-                <CheckCircle2 />
-              </div>
-              <div>
-                <h5 className="mt-1 mb-2 text-xl">{item.title}</h5>
-                <p className="text-md text-neutral-500">{item.description}</p>
-              </div>
-            </div>
-          ))}
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 2" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 3" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 4" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 1" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 2" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 3" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 4" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 1" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 2" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 3" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={codeImg} alt="Project 4" className="border border-blue-600 rounded-md" />
         </div>
       </div>
     </div>

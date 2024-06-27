@@ -11,7 +11,9 @@ const HeroSection = () => {
         </span>
       </h1>
       <br></br>
-      <span className="text-neutral-900">LEADER IN QUALITY ELECTRICAL SOLUTIONS </span>
+      <span className="font-semibold text-neutral-900">
+        LEADER IN QUALITY ELECTRICAL SOLUTIONS{' '}
+      </span>
       <br></br>
       <p className="max-w-4xl mt-10 text-lg text-center text-neutral-700">
         Welcome to Meter Electric, your go-to destination for quality electrical solutions. As
@@ -22,12 +24,12 @@ const HeroSection = () => {
       <div className="flex justify-center my-10">
         <a
           href="#"
-          className="px-4 py-3 mx-3 rounded-sm bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50">
+          className="px-4 py-3 mx-2 border-blue-600 rounded-sm border-1 bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50 hover:to-blue-600">
           SERVICES
         </a>
         <a
           href="#"
-          className="px-4 py-3 mx-3 rounded-sm bg-gradient-to-r from-red-400 to-red-800 text-amber-50">
+          className="px-4 py-3 mx-3 border-red-600 rounded-sm border-1 bg-gradient-to-r from-red-400 to-red-800 text-amber-50 hover:to-red-600">
           PROJECTS
         </a>
       </div>

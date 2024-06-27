@@ -14,11 +14,7 @@ const Partners = () => {
         {partners.map((partner, index) => (
           <div key={index} className="w-full px-4 py-2 sm:w-1/2 lg:w-1/3">
             <div className="p-4 border-2 border-blue-700 rounded-md bg-neutral-800">
-              <img
-                className="h-20 mr-6 border rounded-md w-150 border-neutral-300"
-                src={partner.image}
-                alt=""
-              />
+              <img className="h-20 rounded-md w-150" src={partner.image} alt="" />
             </div>
           </div>
         ))}
