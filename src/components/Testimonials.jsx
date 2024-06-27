@@ -13,11 +13,12 @@ const Testimonials = () => {
       <div className="flex flex-wrap justify-center">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="w-full px-4 py-2 sm:w-1/2 lg:w-1/3">
-            <div className="p-6 font-thin border rounded-md bg-neutral-900 text-md border-neutral-800">
-              <p>
-                We excel in implementing complex control systems and automation solutions that
-                optimize your production processes.
-              </p>
+            <div className="p-4 border rounded-md bg-neutral-900 border-neutral-800">
+              <img
+                className="h-20 mr-6 border rounded-md w-150 border-neutral-300"
+                src={testimonial.image}
+                alt=""
+              />
             </div>
           </div>
         ))}

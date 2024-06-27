@@ -2,12 +2,9 @@ import { features } from '../constants';
 
 const FeatureSection = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div className="relative mt-20 border-b border-neutral-800 min-h-[600px]">
       <div className="text-center">
         <h2 className="mt-8 text-3xl tracking-wide sm:text-5xl lg:text-5xl lg:mt-20">
-          LEADER IN QUALITY ELECTRICAL SOLUTIONS <br></br>
-          <br></br>
-          <br></br>
           <span className="text-transparent bg-gradient-to-r from-blue-500 to-sky-800 bg-clip-text">
             SERVICES
           </span>

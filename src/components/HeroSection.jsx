@@ -11,6 +11,7 @@ const HeroSection = () => {
           Electric
         </span>
       </h1>
+      <br></br>LEADER IN QUALITY ELECTRICAL SOLUTIONS <br></br>
       <p className="max-w-4xl mt-10 text-lg text-center text-neutral-500">
         Welcome to Meter Electric, your go-to destination for quality electrical solutions. As
         specialists in the industry, we provide comprehensive residential, commercial, and
@@ -19,7 +20,7 @@ const HeroSection = () => {
       </p>
       <div className="flex justify-center my-10">
         <a href="#" className="px-4 py-3 mx-3 rounded-sm bg-gradient-to-r from-sky-500 to-blue-800">
-          CONTACT US
+          SERVICES
         </a>
         <a href="#" className="px-4 py-3 mx-3 border rounded-sm">
           PROJECTS
