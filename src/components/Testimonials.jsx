@@ -2,7 +2,7 @@ import { testimonials } from '../constants';
 
 const Testimonials = () => {
   return (
-    <div className="mt-20 tracking-wide">
+    <div className="mt-20 tracking-wide min-h-[300px]">
       <h2 className="mt-6 text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl">
         OUR{' '}
         <span className="text-transparent bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text">

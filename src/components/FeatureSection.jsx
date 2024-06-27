@@ -2,14 +2,14 @@ import { features } from '../constants';
 
 const FeatureSection = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[600px]">
-      <div className="text-center">
-        <h2 className="mt-8 text-3xl tracking-wide sm:text-5xl lg:text-5xl lg:mt-20">
-          <span className="text-transparent bg-gradient-to-r from-blue-500 to-sky-800 bg-clip-text">
-            SERVICES
-          </span>
-        </h2>
-      </div>
+    <div className="relative mt-20 border-b border-blue-700 min-h-[600px]">
+      <h2 className="mt-6 text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl">
+        OUR{' '}
+        <span className="text-transparent bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text">
+          SERVICES
+        </span>
+        <br></br> <br></br>
+      </h2>
       <div className="flex flex-wrap mt-10 lg:mt-20">
         {features.map((feature, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
