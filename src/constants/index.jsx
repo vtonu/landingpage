@@ -1,5 +1,6 @@
 import { BatteryCharging } from 'lucide-react';
 import { PlugZap } from 'lucide-react';
+import { Cable } from 'lucide-react';
 
 import user1 from '../assets/profile-pictures/user1.jpg';
 import user2 from '../assets/profile-pictures/user2.jpg';
@@ -60,7 +61,7 @@ export const features = [
     ),
   },
   {
-    icon: <PlugZap />,
+    icon: <Cable />,
     text: (
       <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
         Industrial

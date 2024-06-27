@@ -13,10 +13,10 @@ const FeatureSection = () => {
       <div className="flex flex-wrap mt-10 lg:mt-20">
         {features.map((feature, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
-            <div>
-              <div className="flex items-center justify-between w-10 h-10 text-blue-700 rounded-sm bg-neutral-200">
+            <div className="grid gap-4 justify-items-center">
+              <div>{feature.text}</div>
+              <div className="flex items-center justify-center w-10 h-10 text-blue-700 rounded-sm bg-neutral-200">
                 {feature.icon}
-                {feature.text}
               </div>
               <p className="p-2 mb-20 text-md text-amber-50">{feature.description}</p>
             </div>
