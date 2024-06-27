@@ -31,7 +31,7 @@ export const features = [
   {
     icon: <BatteryCharging />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-100">
         Residential
       </span>
     ),
@@ -47,7 +47,7 @@ export const features = [
   {
     icon: <PlugZap />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-100">
         Commercial
       </span>
     ),
@@ -63,7 +63,7 @@ export const features = [
   {
     icon: <Cable />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-100">
         Industrial
       </span>
     ),
