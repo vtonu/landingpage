@@ -4,25 +4,30 @@ import video2 from '../assets/video2.mp4';
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <h1 className="text-4xl tracking-wide text-center sm:text-6xl lg:text-7xl">
-        Meter
-        <span className="text-transparent bg-gradient-to-r from-sky-500 to-blue-800 bg-clip-text">
+      <h1 className="text-4xl tracking-wide text-center sm:text-6xl lg:text-7xl ">
+        <span className="font-semibold text-transparent bg-gradient-to-r from-blue-600 to-red-700 bg-clip-text">
           {' '}
-          Electric
+          METER ELECTRIC
         </span>
       </h1>
-      <br></br>LEADER IN QUALITY ELECTRICAL SOLUTIONS <br></br>
-      <p className="max-w-4xl mt-10 text-lg text-center text-neutral-500">
+      <br></br>
+      <span className="text-neutral-900">LEADER IN QUALITY ELECTRICAL SOLUTIONS </span>
+      <br></br>
+      <p className="max-w-4xl mt-10 text-lg text-center text-neutral-700">
         Welcome to Meter Electric, your go-to destination for quality electrical solutions. As
         specialists in the industry, we provide comprehensive residential, commercial, and
         industrial services tailored to your needs. Choose METER ELECTRIC for reliable service that
         illuminates your world with safety and efficiency.
       </p>
       <div className="flex justify-center my-10">
-        <a href="#" className="px-4 py-3 mx-3 rounded-sm bg-gradient-to-r from-sky-500 to-blue-800">
+        <a
+          href="#"
+          className="px-4 py-3 mx-3 rounded-sm bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50">
           SERVICES
         </a>
-        <a href="#" className="px-4 py-3 mx-3 border rounded-sm">
+        <a
+          href="#"
+          className="px-4 py-3 mx-3 rounded-sm bg-gradient-to-r from-red-400 to-red-800 text-amber-50">
           PROJECTS
         </a>
       </div>

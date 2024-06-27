@@ -3,7 +3,7 @@ import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
 import Workflow from './components/Workflow';
 import Footer from './components/Footer';
-import Testimonials from './components/Testimonials';
+import Partners from './components/Partners';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <HeroSection />
         <FeatureSection />
         <Workflow />
-        <Testimonials />
+        <Partners />
         <Footer />
       </div>
     </>

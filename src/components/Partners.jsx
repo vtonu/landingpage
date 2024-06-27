@@ -1,6 +1,6 @@
-import { testimonials } from '../constants';
+import { partners } from '../constants';
 
-const Testimonials = () => {
+const Partners = () => {
   return (
     <div className="mt-20 tracking-wide min-h-[300px] border-t border-blue-700">
       <h2 className="mt-6 text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl">
@@ -11,12 +11,12 @@ const Testimonials = () => {
         <br></br> <br></br>
       </h2>
       <div className="flex flex-wrap justify-center">
-        {testimonials.map((testimonial, index) => (
+        {partners.map((partner, index) => (
           <div key={index} className="w-full px-4 py-2 sm:w-1/2 lg:w-1/3">
             <div className="p-4 border rounded-md bg-neutral-900 border-neutral-800">
               <img
                 className="h-20 mr-6 border rounded-md w-150 border-neutral-300"
-                src={testimonial.image}
+                src={partner.image}
                 alt=""
               />
             </div>
@@ -27,4 +27,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Partners;

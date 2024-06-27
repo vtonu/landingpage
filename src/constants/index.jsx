@@ -11,7 +11,7 @@ export const navItems = [
   { label: 'CONTACT', href: '#' },
 ];
 
-export const testimonials = [
+export const partners = [
   {
     user: 'John Doe',
     company: 'Stellar Solutions',
@@ -30,16 +30,15 @@ export const features = [
   {
     icon: <BatteryCharging />,
     text: (
-      <span className="h-6 px-2 py-1 text-sm font-medium text-blue-500 uppercase rounded-sm bg-neutral-900">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
         Residential
       </span>
     ),
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
         <p>
-          Top-quality residential services, from EV charger installations to emergency generator
-          setups. Meter service upgrades, panel replacements, and all your home electrical needs,
-          met with precision and care.
+          Top-quality residential services, from EV charger installations to emergency generators.
+          Meter service upgrades, panel replacements, and more.
         </p>
       </div>
     ),
@@ -47,7 +46,7 @@ export const features = [
   {
     icon: <PlugZap />,
     text: (
-      <span className="h-6 px-2 py-1 text-sm font-medium text-blue-500 uppercase rounded-sm bg-neutral-900">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
         Commercial
       </span>
     ),
@@ -63,7 +62,7 @@ export const features = [
   {
     icon: <PlugZap />,
     text: (
-      <span className="h-6 px-2 py-1 text-sm font-medium text-blue-500 uppercase rounded-sm bg-neutral-900">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-200">
         Industrial
       </span>
     ),
@@ -71,7 +70,7 @@ export const features = [
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
         <p>
           We excel in implementing complex control systems and automation solutions that optimize
-          your production processes.
+          your business and production processes.
         </p>
       </div>
     ),
@@ -91,51 +90,4 @@ export const checklistItems = [
     title: 'Project 3',
     description: 'Project 1 Details go here ...',
   },
-];
-
-export const pricingOptions = [
-  {
-    title: 'Free',
-    price: '$0',
-    features: ['Private board sharing', '5 Gb Storage', 'Web Analytics', 'Private Mode'],
-  },
-  {
-    title: 'Pro',
-    price: '$10',
-    features: ['Private board sharing', '10 Gb Storage', 'Web Analytics (Advance)', 'Private Mode'],
-  },
-  {
-    title: 'Enterprise',
-    price: '$200',
-    features: [
-      'Private board sharing',
-      'Unlimited Storage',
-      'High Performance Network',
-      'Private Mode',
-    ],
-  },
-];
-
-export const resourcesLinks = [
-  { href: '#', text: 'Getting Started' },
-  { href: '#', text: 'Documentation' },
-  { href: '#', text: 'Tutorials' },
-  { href: '#', text: 'API Reference' },
-  { href: '#', text: 'Community Forums' },
-];
-
-export const platformLinks = [
-  { href: '#', text: 'Features' },
-  { href: '#', text: 'Supported Devices' },
-  { href: '#', text: 'System Requirements' },
-  { href: '#', text: 'Downloads' },
-  { href: '#', text: 'Release Notes' },
-];
-
-export const communityLinks = [
-  { href: '#', text: 'Events' },
-  { href: '#', text: 'Meetups' },
-  { href: '#', text: 'Conferences' },
-  { href: '#', text: 'Hackathons' },
-  { href: '#', text: 'Jobs' },
 ];

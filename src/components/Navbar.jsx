@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 border-b backdrop-blur-lg border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-3 border-b backdrop-blur-lg border-blue-700/80">
       <div className="container relative px-4 mx-auto lg:text-sm">
         <div className="flex items-center justify-between">
           <div className="flex items-center flex-shrink-0">
@@ -40,7 +40,7 @@ const Navbar = () => {
             <button onClick={toggleNavbar}>{mobileDrawerOpen ? <X /> : <Menu />}</button>
           </div>
         </div>
-        {mobileDrawerOpen && (
+        {/* {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 flex flex-col items-center justify-center w-full p-12 bg-neutral-900 lg:hidden">
             <ul>
               {navItems.map((item, index) => (
@@ -60,7 +60,7 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </nav>
   );
