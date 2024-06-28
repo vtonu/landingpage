@@ -29,6 +29,22 @@ export const partners = [
 
 export const features = [
   {
+    icon: <PlugZap />,
+    text: (
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
+        Commercial
+      </span>
+    ),
+    description: (
+      <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
+        <p>
+          From logic & control systems to automations & controls, Meter Electric provides tailored
+          solutions for every project.
+        </p>
+      </div>
+    ),
+  },
+  {
     icon: <BatteryCharging />,
     text: (
       <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
@@ -45,22 +61,6 @@ export const features = [
     ),
   },
   {
-    icon: <PlugZap />,
-    text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
-        Commercial
-      </span>
-    ),
-    description: (
-      <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
-        <p>
-          Top-quality commercial services. We specialize in logic & control systems, as well as
-          automation systems.
-        </p>
-      </div>
-    ),
-  },
-  {
     icon: <Cable />,
     text: (
       <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
@@ -70,7 +70,8 @@ export const features = [
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
         <p>
-          Top-quality control systems troubleshooting and automation solutions for every industry.
+          From control systems troubleshooting to automations & controls, Meter Electric provides
+          tailored solutions for every industry.
         </p>
       </div>
     ),

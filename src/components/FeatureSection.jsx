@@ -37,15 +37,15 @@ const FeatureSection = () => {
         </div>
         <div className="w-full p-2">
           <img
-            src={techImg}
-            alt="Project 2"
+            src={codeImg}
+            alt="Project 1"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />
         </div>
         <div className="w-full p-2">
           <img
-            src={codeImg}
-            alt="Project 1"
+            src={techImg}
+            alt="Project 2"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />
         </div>

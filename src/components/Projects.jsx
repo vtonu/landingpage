@@ -1,6 +1,6 @@
 import testerImg from '../assets/tester.jpg';
 
-const Workflow = () => {
+const Projects = () => {
   return (
     <div className="mt-20 min-h-[600px]">
       <h2 className="mt-6 text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl">
@@ -40,4 +40,4 @@ const Workflow = () => {
   );
 };
 
-export default Workflow;
+export default Projects;
