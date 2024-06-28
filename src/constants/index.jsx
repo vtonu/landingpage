@@ -14,16 +14,16 @@ export const navItems = [
 
 export const partners = [
   {
-    user: 'John Doe',
-    company: 'Stellar Solutions',
+    user: 'GENERAC',
+    company: 'GENERAC COMPANY',
     image: user1,
-    text: 'I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.',
+    text: 'backup power generation products for residential, light commercial and industrial markets.',
   },
   {
-    user: 'Jane Smith',
-    company: 'Blue Horizon Technologies',
+    user: 'Company Name',
+    company: 'COMPANY NAME HERE',
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: 'COMPANY SLOGAN HERE',
   },
 ];
 
@@ -31,15 +31,15 @@ export const features = [
   {
     icon: <BatteryCharging />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-100">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
         Residential
       </span>
     ),
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
         <p>
-          Top-quality residential services, from EV charger installations to emergency generators.
-          Meter service upgrades, panel replacements, and more.
+          Top-quality residential services, from EV charger installations to emergency generators,
+          meter service upgrades, panel replacements, and more.
         </p>
       </div>
     ),
@@ -47,15 +47,15 @@ export const features = [
   {
     icon: <PlugZap />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-100">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
         Commercial
       </span>
     ),
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
         <p>
-          We specialize in logic & control systems, as well as automation systems. We ensure your
-          operations run smoothly and efficiently.
+          Top-quality commercial services. We specialize in logic & control systems, as well as
+          automation systems.
         </p>
       </div>
     ),
@@ -63,32 +63,16 @@ export const features = [
   {
     icon: <Cable />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-500 uppercase rounded-sm bg-neutral-100">
+      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
         Industrial
       </span>
     ),
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-800">
         <p>
-          We excel in implementing complex control systems and automation solutions that optimize
-          your business and production processes.
+          Top-quality control systems troubleshooting and automation solutions for every industry.
         </p>
       </div>
     ),
-  },
-];
-
-export const checklistItems = [
-  {
-    title: 'Project 1',
-    description: 'Project 1 Details go here ...',
-  },
-  {
-    title: 'Project 2',
-    description: 'Project 1 Details go here ...',
-  },
-  {
-    title: 'Project 3',
-    description: 'Project 1 Details go here ...',
   },
 ];
