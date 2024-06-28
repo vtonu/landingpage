@@ -27,29 +27,7 @@ const FeatureSection = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-2 gap-2 pb-20 md:grid-cols-3">
-        <div className="w-full p-2">
-          <img
-            src={digitalImg}
-            alt="Project 4"
-            className="object-cover h-48 border border-blue-600 rounded-md w-96"
-          />
-        </div>
-        <div className="w-full p-2">
-          <img
-            src={codeImg}
-            alt="Project 1"
-            className="object-cover h-48 border border-blue-600 rounded-md w-96"
-          />
-        </div>
-        <div className="w-full p-2">
-          <img
-            src={techImg}
-            alt="Project 2"
-            className="object-cover h-48 border border-blue-600 rounded-md w-96"
-          />
-        </div>
-      </div>
+      <div className="grid grid-cols-2 gap-2 pb-20 md:grid-cols-3"></div>
     </div>
   );
 };

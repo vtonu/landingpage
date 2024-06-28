@@ -15,21 +15,21 @@ const HeroSection = () => {
         LEADER IN QUALITY ELECTRICAL SOLUTIONS{' '}
       </span>
       <br></br>
-      <p className="max-w-4xl mt-10 text-lg text-center text-neutral-700">
-        Welcome to Meter Electric, your go-to destination for quality electrical solutions. As
-        specialists in the industry, we provide comprehensive residential, commercial, and
-        industrial services tailored to your needs. Choose METER ELECTRIC for reliable service that
-        illuminates your world with safety and efficiency.
+      <p className="max-w-4xl mt-10 text-center text-balance text-md text-neutral-700">
+        Welcome to METER ELECTRIC LLC, your go-to destination for quality electrical solutions. As
+        specialists in the industry, we provide comprehensive commercial, residential and industrial
+        services tailored to your needs. Choose METER ELECTRIC for reliable service that illuminates
+        your world with safety & efficiency.
       </p>
       <div className="flex justify-center my-10">
         <a
           href="#"
-          className="px-4 py-3 mx-2 border-blue-600 rounded-sm border-1 bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50 hover:to-blue-600">
+          className="px-4 py-3 mx-2 border-blue-600 rounded-sm shadow-sm border-1 bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50 hover:to-blue-600 shadow-sky-200">
           SERVICES
         </a>
         <a
           href="#"
-          className="px-4 py-3 mx-3 border-red-600 rounded-sm border-1 bg-gradient-to-r from-red-400 to-red-800 text-amber-50 hover:to-red-600">
+          className="px-4 py-3 mx-3 border-red-600 rounded-sm shadow-sm border-1 bg-gradient-to-r from-red-400 to-red-800 text-amber-50 hover:to-red-600 shadow-sky-200">
           PROJECTS
         </a>
       </div>
@@ -38,7 +38,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="w-1/2 mx-2 my-4 border border-blue-700 rounded-lg shadow-sm shadow-sky-400">
+          className="w-1/2 mx-1 my-2 border border-blue-700 rounded-lg shadow-sm shadow-sky-400">
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -46,7 +46,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="w-1/2 mx-2 my-4 border border-blue-700 rounded-lg shadow-sm shadow-sky-400">
+          className="w-1/2 mx-1 my-2 border border-blue-700 rounded-lg shadow-sm shadow-sky-400">
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
