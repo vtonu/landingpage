@@ -6,7 +6,7 @@ import digitalImg from '../assets/digital.jpg';
 const FeatureSection = () => {
   return (
     <div className="relative mt-20 border-b border-blue-700 min-h-[600px]">
-      <h2 className="text-2xl tracking-wide text-center border-t border-blue-700 sm:text-5xl lg:text-6xl">
+      <h2 className="text-5xl tracking-wide text-center border-t border-blue-700 sm:text-5xl lg:text-6xl">
         <br></br>
         OUR{' '}
         <span className="text-transparent bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text">

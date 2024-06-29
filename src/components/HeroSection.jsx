@@ -16,7 +16,7 @@ const HeroSection = () => {
       </span>
       <br></br>
       <p className="max-w-4xl mt-10 text-center text-balance text-md text-neutral-700">
-        Welcome to METER ELECTRIC LLC, your go-to destination for quality electrical solutions. As
+        Welcome to METER ELECTRIC, your go-to destination for quality electrical solutions. As
         specialists in the industry, we provide comprehensive commercial, residential and industrial
         services tailored to your needs. Choose METER ELECTRIC for reliable service that illuminates
         your world with safety & efficiency.

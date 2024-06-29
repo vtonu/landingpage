@@ -3,7 +3,7 @@ import { Cable } from 'lucide-react';
 import { KeyboardMusic } from 'lucide-react';
 
 import user1 from '../assets/profile-pictures/user1.jpg';
-import user2 from '../assets/profile-pictures/user2.jpg';
+import yourCompany from '../assets/profile-pictures/yourCompany.jpg';
 
 import codeImg from '../assets/code.jpg';
 import techImg from '../assets/tech.jpg';
@@ -26,7 +26,7 @@ export const partners = [
   {
     user: 'Company Name',
     company: 'COMPANY NAME HERE',
-    image: user2,
+    image: yourCompany,
     text: 'COMPANY SLOGAN HERE',
   },
 ];
