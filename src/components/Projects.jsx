@@ -7,6 +7,7 @@ import project5 from '../assets/project5.jpg';
 import project6 from '../assets/project6.jpg';
 import project7 from '../assets/project7.jpg';
 import project8 from '../assets/project8.jpg';
+import project9 from '../assets/project9.jpg';
 
 const Projects = () => {
   return (
@@ -28,6 +29,9 @@ const Projects = () => {
 
         <div className="w-full p-2">
           <img src={project5} alt="Project 2" className="border border-blue-600 rounded-md" />
+        </div>
+        <div className="w-full p-2">
+          <img src={project9} alt="Project 2" className="border border-blue-600 rounded-md" />
         </div>
       </div>
     </div>
