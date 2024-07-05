@@ -8,6 +8,8 @@ import yourCompany from '../assets/profile-pictures/yourCompany.jpg';
 import codeImg from '../assets/code.jpg';
 import techImg from '../assets/tech.jpg';
 import digitalImg from '../assets/digital.jpg';
+import project1_copy from '../assets/project1_copy.jpg';
+import project4_copy from '../assets/project4_copy.jpg';
 
 export const navItems = [
   { label: 'HOME', href: '#' },
@@ -70,7 +72,7 @@ export const features = [
         </p>
         <div className="w-full p-2">
           <img
-            src={digitalImg}
+            src={project1_copy}
             alt="Project 4"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />
@@ -93,7 +95,7 @@ export const features = [
         </p>
         <div className="w-full p-2">
           <img
-            src={techImg}
+            src={project4_copy}
             alt="Project 2"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />

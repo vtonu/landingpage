@@ -18,30 +18,16 @@ const Projects = () => {
         </span>
         <br></br> <br></br>
       </h2>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-        <div className="w-full p-2">
-          <img src={project8} alt="Project 1" className="border border-blue-600 rounded-md" />
-        </div>
-        <div className="w-full p-2">
-          <img src={project1} alt="Project 2" className="border border-blue-600 rounded-md" />
-        </div>
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
         <div className="w-full p-2">
           <img src={project2} alt="Project 3" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
           <img src={project3} alt="Project 4" className="border border-blue-600 rounded-md" />
         </div>
-        <div className="w-full p-2">
-          <img src={project4} alt="Project 1" className="border border-blue-600 rounded-md" />
-        </div>
+
         <div className="w-full p-2">
           <img src={project5} alt="Project 2" className="border border-blue-600 rounded-md" />
-        </div>
-        <div className="w-full p-2">
-          <img src={project6} alt="Project 3" className="border border-blue-600 rounded-md" />
-        </div>
-        <div className="w-full p-2">
-          <img src={project7} alt="Project 4" className="border border-blue-600 rounded-md" />
         </div>
       </div>
     </div>
