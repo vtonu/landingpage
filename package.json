@@ -1,10 +1,11 @@
 {
-  "name": "virtualr",
+  "name": "vite-react",
+  "description": "Vite + React setup with Tailwind CSS and ESLint",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

@@ -23,12 +23,12 @@ export const partners = [
     image: user1,
     text: 'backup power generation products for residential, light commercial and industrial markets.',
   },
-  {
+  /* {
     user: 'Company Name',
     company: 'COMPANY NAME HERE',
     image: yourCompany,
     text: 'COMPANY SLOGAN HERE',
-  },
+  }, */
 ];
 
 export const features = [

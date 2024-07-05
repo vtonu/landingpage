@@ -5,10 +5,8 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl tracking-wide text-center sm:text-6xl lg:text-7xl ">
-        <span className="font-semibold text-transparent bg-gradient-to-r from-blue-600 to-red-700 bg-clip-text">
-          {' '}
-          METER ELECTRIC
-        </span>
+        <span className="font-semibold text-blue-700">METER</span>
+        <span className="font-semibold text-red-700">ELECTRIC</span>
       </h1>
       <br></br>
       <span className="font-semibold text-neutral-900">
