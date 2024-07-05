@@ -1,5 +1,6 @@
 import video1 from '../assets/video1.mp4';
 import video2 from '../assets/video2.mp4';
+import load from '../assets/load.jpg';
 
 const HeroSection = () => {
   return (
@@ -41,14 +42,10 @@ const HeroSection = () => {
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video
-          autoPlay
-          loop
-          muted
-          className="w-1/2 mx-1 my-2 border border-blue-700 rounded-lg shadow-sm shadow-sky-400">
-          <source src={video2} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <img
+          src={load}
+          className="w-1/3 mx-1 my-2 border border-blue-700 rounded-lg shadow-sm shadow-sky-400"
+        />
       </div>
     </div>
   );

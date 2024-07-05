@@ -1,4 +1,12 @@
 import testerImg from '../assets/tester.jpg';
+import project1 from '../assets/project1.jpg';
+import project2 from '../assets/project2.jpg';
+import project3 from '../assets/project3.jpg';
+import project4 from '../assets/project4.jpg';
+import project5 from '../assets/project5.jpg';
+import project6 from '../assets/project6.jpg';
+import project7 from '../assets/project7.jpg';
+import project8 from '../assets/project8.jpg';
 
 const Projects = () => {
   return (
@@ -12,28 +20,28 @@ const Projects = () => {
       </h2>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 1" className="border border-blue-600 rounded-md" />
+          <img src={project8} alt="Project 1" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 2" className="border border-blue-600 rounded-md" />
+          <img src={project1} alt="Project 2" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 3" className="border border-blue-600 rounded-md" />
+          <img src={project2} alt="Project 3" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 4" className="border border-blue-600 rounded-md" />
+          <img src={project3} alt="Project 4" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 1" className="border border-blue-600 rounded-md" />
+          <img src={project4} alt="Project 1" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 2" className="border border-blue-600 rounded-md" />
+          <img src={project5} alt="Project 2" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 3" className="border border-blue-600 rounded-md" />
+          <img src={project6} alt="Project 3" className="border border-blue-600 rounded-md" />
         </div>
         <div className="w-full p-2">
-          <img src={testerImg} alt="Project 4" className="border border-blue-600 rounded-md" />
+          <img src={project7} alt="Project 4" className="border border-blue-600 rounded-md" />
         </div>
       </div>
     </div>
