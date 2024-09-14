@@ -3,11 +3,20 @@ import { useState } from 'react';
 import logo from '../assets/logo.png';
 import { navItems } from '../constants';
 
-const Navbar = () => {
+const Navbar = ({ homeRef, servicesRef, projectsRef, contactRef }) => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
+  };
+
+  const handleScroll = (ref) => {
+    if (ref === null) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      ref.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+    setMobileDrawerOpen(false); // Close the mobile drawer when a link is clicked
   };
 
   return (
@@ -21,7 +30,16 @@ const Navbar = () => {
           <ul className="hidden space-x-12 lg:flex ml-14">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href}>{item.label}</a>
+                <button
+                  onClick={() => {
+                    if (item.scrollTo === 'homeRef') handleScroll(null); // Scroll to top
+                    if (item.scrollTo === 'servicesRef') handleScroll(servicesRef);
+                    if (item.scrollTo === 'projectsRef') handleScroll(projectsRef);
+                    if (item.scrollTo === 'contactRef') handleScroll(contactRef);
+                  }}
+                  className="text-blue-700 hover:underline">
+                  {item.label}
+                </button>
               </li>
             ))}
           </ul>
@@ -30,12 +48,22 @@ const Navbar = () => {
             <button onClick={toggleNavbar}>{mobileDrawerOpen ? <X /> : <Menu />}</button>
           </div>
         </div>
+
         {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 flex flex-col items-center justify-center w-full p-12 bg-neutral-200 lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <button
+                    onClick={() => {
+                      if (item.scrollTo === 'homeRef') handleScroll(null); // Scroll to top
+                      if (item.scrollTo === 'servicesRef') handleScroll(servicesRef);
+                      if (item.scrollTo === 'projectsRef') handleScroll(projectsRef);
+                      if (item.scrollTo === 'contactRef') handleScroll(contactRef);
+                    }}
+                    className="text-blue-700 hover:underline">
+                    {item.label}
+                  </button>
                 </li>
               ))}
             </ul>

@@ -7,10 +7,10 @@ import residential from '../assets/services/residential.jpg';
 import industrial from '../assets/services/industrial.jpg';
 
 export const navItems = [
-  { label: 'HOME', href: '#home' },
-  { label: 'SERVICES', href: '#services' },
-  { label: 'PROJECTS', href: '#projects' },
-  { label: 'CONTACT', href: '#contact' },
+  { label: 'HOME', scrollTo: 'homeRef' },
+  { label: 'SERVICES', scrollTo: 'servicesRef' },
+  { label: 'PROJECTS', scrollTo: 'projectsRef' },
+  { label: 'CONTACT', scrollTo: 'contactRef' },
 ];
 
 export const partners = [

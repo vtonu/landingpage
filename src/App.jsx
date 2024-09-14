@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
@@ -7,15 +8,31 @@ import Contacts from './components/ContactUs';
 import Footer from './components/Footer';
 
 const App = () => {
+  const homeRef = useRef(null);
+  const servicesRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
     <>
-      <Navbar />
+      <Navbar
+        servicesRef={servicesRef}
+        projectsRef={projectsRef}
+        contactRef={contactRef}
+        homeRef={homeRef}
+      />
       <div className="px-2 pt-20 mx-auto max-w-7xl">
-        <HeroSection />
-        <FeatureSection />
-        <Projects />
+        <HeroSection servicesRef={servicesRef} projectsRef={projectsRef} homeRef={homeRef} />
+        <div ref={servicesRef}>
+          <FeatureSection />
+        </div>
+        <div ref={projectsRef}>
+          <Projects />
+        </div>
         <Partners />
-        <Contacts />
+        <div ref={contactRef}>
+          <Contacts />
+        </div>
         <Footer />
       </div>
     </>
