@@ -1,7 +1,4 @@
 import { features } from '../constants';
-import codeImg from '../assets/code.jpg';
-import techImg from '../assets/tech.jpg';
-import digitalImg from '../assets/digital.jpg';
 
 const FeatureSection = () => {
   return (

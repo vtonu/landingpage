@@ -1,13 +1,7 @@
-import testerImg from '../assets/tester.jpg';
-import project1 from '../assets/project1.jpg';
-import project2 from '../assets/project2.jpg';
-import project3 from '../assets/project3.jpg';
-import project4 from '../assets/project4.jpg';
-import project5 from '../assets/project5.jpg';
-import project6 from '../assets/project6.jpg';
-import project7 from '../assets/project7.jpg';
-import project8 from '../assets/project8.jpg';
-import project9 from '../assets/project9.jpg';
+import project1_yellow from '../assets/projects/project1_yellow.jpg';
+import project2_redbluewires from '../assets/projects/project2_redbluewires.jpg';
+import project3_yellowstickers from '../assets/projects/project3_yellowstickers.jpg';
+import project4_housebackground from '../assets/projects/project4_housebackground.jpg';
 
 const Projects = () => {
   return (
@@ -21,17 +15,33 @@ const Projects = () => {
       </h2>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
         <div className="w-full p-2">
-          <img src={project2} alt="Project 3" className="border border-blue-600 rounded-md" />
+          <img
+            src={project1_yellow}
+            alt="Project 3"
+            className="border border-blue-600 rounded-md"
+          />
         </div>
         <div className="w-full p-2">
-          <img src={project3} alt="Project 4" className="border border-blue-600 rounded-md" />
+          <img
+            src={project2_redbluewires}
+            alt="Project 4"
+            className="border border-blue-600 rounded-md"
+          />
         </div>
 
         <div className="w-full p-2">
-          <img src={project5} alt="Project 2" className="border border-blue-600 rounded-md" />
+          <img
+            src={project3_yellowstickers}
+            alt="Project 2"
+            className="border border-blue-600 rounded-md"
+          />
         </div>
         <div className="w-full p-2">
-          <img src={project9} alt="Project 2" className="border border-blue-600 rounded-md" />
+          <img
+            src={project4_housebackground}
+            alt="Project 2"
+            className="border border-blue-600 rounded-md"
+          />
         </div>
       </div>
     </div>

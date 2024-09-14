@@ -5,7 +5,7 @@ const Footer = () => {
         Copyright © 2024 Meter Electric LLC.
       </h3>
 
-      <h4 className="text-xs font-light text-neutral-700">
+      {/* <h4 className="text-xs font-light text-neutral-700">
         Web Design by{' '}
         <a
           href="https://github.com/vtonu"
@@ -15,7 +15,7 @@ const Footer = () => {
           Victor Tonu
         </a>
         .
-      </h4>
+      </h4> */}
     </footer>
   );
 };

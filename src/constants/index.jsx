@@ -1,36 +1,23 @@
 import { BatteryCharging } from 'lucide-react';
 import { Cable } from 'lucide-react';
 import { KeyboardMusic } from 'lucide-react';
-
-import user1 from '../assets/profile-pictures/user1.jpg';
-import yourCompany from '../assets/profile-pictures/yourCompany.jpg';
-
-import codeImg from '../assets/code.jpg';
-import techImg from '../assets/tech.jpg';
-import digitalImg from '../assets/digital.jpg';
-import project1_copy from '../assets/project1_copy.jpg';
-import project4_copy from '../assets/project4_copy.jpg';
+import generac from '../assets/profile-pictures/generac.jpg';
+import commercial from '../assets/services/commercial.jpg';
+import residential from '../assets/services/residential.jpg';
+import industrial from '../assets/services/industrial.jpg';
 
 export const navItems = [
-  { label: 'HOME', href: '#' },
-  { label: 'SERVICES', href: '#' },
-  { label: 'PROJECTS', href: '#' },
-  { label: 'CONTACT', href: '#' },
+  { label: 'HOME', href: '#home' },
+  { label: 'SERVICES', href: '#services' },
+  { label: 'PROJECTS', href: '#projects' },
+  { label: 'CONTACT', href: '#contact' },
 ];
 
 export const partners = [
   {
-    user: 'GENERAC',
     company: 'GENERAC COMPANY',
-    image: user1,
-    text: 'backup power generation products for residential, light commercial and industrial markets.',
+    image: generac,
   },
-  /* {
-    user: 'Company Name',
-    company: 'COMPANY NAME HERE',
-    image: yourCompany,
-    text: 'COMPANY SLOGAN HERE',
-  }, */
 ];
 
 export const features = [
@@ -42,15 +29,15 @@ export const features = [
       </span>
     ),
     description: (
-      <div className="p-6 font-normal border rounded-md bg-neutral-800 text-md border-neutral-600">
+      <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-600">
         <p className="text-center">
           From logic systems to automations & controls, Meter Electric provides tailored solutions
-          for every project. Choose METER ELECTRIC!
+          for every project.
         </p>
         <div className="w-full p-2">
           <img
-            src={codeImg}
-            alt="Project 1"
+            src={commercial}
+            alt="Commercial Image"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />
         </div>
@@ -65,15 +52,15 @@ export const features = [
       </span>
     ),
     description: (
-      <div className="p-6 font-normal border rounded-md bg-neutral-800 text-md border-neutral-600">
+      <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-600">
         <p className="text-center ">
           Top-quality residential services, from EV charger installations to emergency generators,
-          meter service upgrades, panel replacements, and more.
+          meter service upgrades, panel replacements & more.
         </p>
         <div className="w-full p-2">
           <img
-            src={project1_copy}
-            alt="Project 4"
+            src={residential}
+            alt="Residential Image"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />
         </div>
@@ -88,15 +75,15 @@ export const features = [
       </span>
     ),
     description: (
-      <div className="p-6 font-normal border rounded-md bg-neutral-800 text-md border-neutral-600">
+      <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-600">
         <p className="text-center ">
           From control systems troubleshooting to automations & controls, Meter Electric provides
           tailored solutions for every industry.
         </p>
         <div className="w-full p-2">
           <img
-            src={project4_copy}
-            alt="Project 2"
+            src={industrial}
+            alt="Industrial Image"
             className="object-cover h-48 border border-blue-600 rounded-md w-96"
           />
         </div>

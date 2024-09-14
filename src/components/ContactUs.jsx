@@ -8,9 +8,9 @@ const Contacts = () => {
         </span>
         <br></br>
         <br></br>
-        <h6 className="text-sm">Email - meterelectrical@gmail.com</h6>
-        <h6 className="text-sm">Website - www.meterelectrical.com</h6>
-        <h5 className="text-sm">Phone - 425-588-7578</h5>
+        <h6 className="text-lg">Email - meterelectrical@gmail.com</h6>
+        <h6 className="text-lg">Website - www.meterelectrical.com</h6>
+        <h6 className="text-lg">Phone - (425)-588-7578</h6>
       </h2>
     </div>
   );
