@@ -2,6 +2,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import logo from '../assets/logo.png';
 import { navItems } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ homeRef, servicesRef, projectsRef, contactRef }) => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -24,7 +25,10 @@ const Navbar = ({ homeRef, servicesRef, projectsRef, contactRef }) => {
       <div className="container relative px-4 mx-auto lg:text-sm">
         <div className="flex items-center justify-between">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-20 m-2" src={logo} alt="Logo" />
+            {/* Wrap the logo with the Link component */}
+            <Link to="/">
+              <img className="h-20 m-2 cursor-pointer" src={logo} alt="Logo" />
+            </Link>
             {/* <span className="text-xl tracking-tight">METER ELECTRIC LLC</span> */}
           </div>
           <ul className="hidden space-x-12 lg:flex ml-14">

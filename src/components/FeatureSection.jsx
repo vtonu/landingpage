@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { features } from '../constants';
 
 const FeatureSection = () => {
@@ -19,7 +20,10 @@ const FeatureSection = () => {
               <div className="flex items-center justify-center w-10 h-10 text-blue-700 rounded-sm">
                 {feature.icon}
               </div>
-              <p className="p-2 mb-20 text-md text-amber-50">{feature.description}</p>
+              <p className="p-2 mb-20 text-md text-amber-50">
+                {/* Wrap the image with the Link component */}
+                <Link to={feature.link}>{feature.description}</Link>
+              </p>
             </div>
           </div>
         ))}

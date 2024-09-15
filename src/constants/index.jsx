@@ -24,15 +24,17 @@ export const features = [
   {
     icon: <KeyboardMusic />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
+      <span className="px-4 py-2 font-medium tracking-wide text-blue-700 uppercase rounded-sm text-md bg-neutral-100">
         Commercial
       </span>
     ),
+    link: '/commercial',
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-600">
         <p className="text-center">
           From logic systems to automations & controls, Meter Electric provides tailored solutions
-          for every project.
+          for every project. <br></br>
+          <br></br>
         </p>
         <div className="w-full p-2">
           <img
@@ -47,10 +49,11 @@ export const features = [
   {
     icon: <BatteryCharging />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
+      <span className="px-4 py-2 font-medium tracking-wide text-blue-700 uppercase rounded-sm text-md bg-neutral-100">
         Residential
       </span>
     ),
+    link: '/residential',
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-600">
         <p className="text-center ">
@@ -70,10 +73,11 @@ export const features = [
   {
     icon: <Cable />,
     text: (
-      <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
+      <span className="px-4 py-2 font-medium tracking-wide text-blue-700 uppercase rounded-sm text-md bg-neutral-100">
         Industrial
       </span>
     ),
+    link: '/industrial',
     description: (
       <div className="p-6 font-normal border rounded-md bg-neutral-900 text-md border-neutral-600">
         <p className="text-center ">
