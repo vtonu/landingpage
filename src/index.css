@@ -8,3 +8,10 @@
   font-family: 'Poppins', sans-serif;
   color-scheme: light;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Adjust as needed */
+}

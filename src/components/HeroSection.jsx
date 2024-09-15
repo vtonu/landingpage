@@ -21,12 +21,12 @@ const HeroSection = ({ servicesRef, projectsRef }) => {
       <div className="flex justify-center my-10">
         <button
           onClick={() => servicesRef.current?.scrollIntoView({ behavior: 'smooth' })}
-          className="px-4 py-3 mx-2 border-blue-600 rounded-sm shadow-sm border-1 bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50 hover:to-blue-600 shadow-sky-200">
+          className="px-4 py-3 mx-2 font-medium border-blue-600 rounded-sm shadow-sm border-1 bg-gradient-to-r from-blue-400 to-blue-800 text-amber-50 hover:to-blue-600 shadow-sky-200">
           SERVICES
         </button>
         <button
           onClick={() => projectsRef.current?.scrollIntoView({ behavior: 'smooth' })}
-          className="px-4 py-3 mx-3 border-red-600 rounded-sm shadow-sm border-1 bg-gradient-to-r from-red-400 to-red-800 text-amber-50 hover:to-red-600 shadow-sky-200">
+          className="px-4 py-3 mx-3 font-medium border-red-600 rounded-sm shadow-sm border-1 bg-gradient-to-r from-red-400 to-red-800 text-amber-50 hover:to-red-600 shadow-sky-200">
           PROJECTS
         </button>
       </div>
